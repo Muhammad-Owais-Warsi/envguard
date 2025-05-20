@@ -1,4 +1,4 @@
-# envsafe : The End of Oops-I-Committed-My-.env
+# envguard : The End of Oops-I-Committed-My-.env
 
 A simple tool to protect your environment variables by ensuring `.env` files never get committed to Git.
 
@@ -12,12 +12,12 @@ A simple tool to protect your environment variables by ensuring `.env` files nev
 
 1. **Install envsafe:**
     ```bash
-    npm install envsafe
+    npm install envguard
     ```
 
 2. **Initialize the package**
     ```bash
-    envsafe init
+    envguard init
     ```
 
 That's it! envsafe will automatically protect your `.env` files from being committed to Git.
