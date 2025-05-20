@@ -1,4 +1,33 @@
 
+import fs from "fs";
+import { execSync } from "child_process";
+
+function isGitRepo() {
+  try {
+    execSync('git rev-parse --is-inside-work-tree', { stdio: 'ignore' });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+
+function checkIfTracked() {
+  try {
+    const tracked = execSync('git ls-files .env', { encoding: 'utf-8' }).trim();
+    const cached = execSync('git ls-files --cached .env', { encoding: 'utf-8' }).trim();
+    return tracked || cached;
+  } catch (error) {
+    console.error("Error checking tracking status:", error.message);
+    return false;
+  }
+}
+
+
+
+
+
+
 function untrackEnv() {
   try {
     console.log("🔄 Removing .env from Git tracking...");
