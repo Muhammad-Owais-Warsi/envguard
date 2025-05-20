@@ -69,6 +69,7 @@ function main() {
     execSync('touch .gitignore', { stdio: 'ignore' });
     console.log("✅ Created new .gitignore file");
     safeAppendToGitignore();
+    console.log("\n✨ Environment safety check completed\n")
     return;
   }
 
