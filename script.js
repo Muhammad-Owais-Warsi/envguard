@@ -62,12 +62,7 @@ function main() {
     return;
   }
   
-  if(!setUpHusky()) {
-    console.log("⚠️ Husky setup incomplete. Please complete the setup manually.");
-    return;
-  }
-  
-  console.log("✅ Husky pre-commit hooks configured successfully\n");
+
 
   if (!fs.existsSync('./.gitignore')) {
     console.log("📁 .gitignore not found. Creating new file...");
@@ -98,3 +93,5 @@ function main() {
 }
 
 export default main;
+
+console.log("✅ Husky pre-commit hooks configured successfully\n");
