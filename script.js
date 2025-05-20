@@ -94,4 +94,4 @@ function main() {
 
 export default main;
 
-console.log("✅ Husky pre-commit hooks configured successfully\n");
+
