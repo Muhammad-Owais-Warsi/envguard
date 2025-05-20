@@ -9,7 +9,7 @@ function init() {
     execSync('husky init');
     execSync('husky')
     console.log("✅ Husky installed and pre-commit hook added.");
-    fs.writeFileSync("./.husky/pre-commit", "node script.js", { mode: 0o755 });
+    fs.writeFileSync("./.husky/pre-commit", "node ./node_modules/envwarden/script.js", { mode: 0o755 });
     return;
   } catch(e) {
     console.log("Error occured");
