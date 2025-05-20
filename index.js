@@ -5,7 +5,7 @@ import fs from "fs";
 function init() {
   try {
     console.log("sdv")
-    fs.writeFileSync("./.husky/pre-commit", "node index.js", { mode: 0o755 });
+    fs.writeFileSync("./.husky/pre-commit", "node script.js", { mode: 0o755 });
     return;
   } catch(e) {
     console.log("Error occured");
