@@ -10,7 +10,7 @@ A simple tool to protect your environment variables by ensuring `.env` files nev
 
 ## 🛠️ Quick Start
 
-1. **Install envsafe:**
+1. **Install envwarden:**
     ```bash
     npm install envwarden
     ```
@@ -20,7 +20,7 @@ A simple tool to protect your environment variables by ensuring `.env` files nev
     npx envwarden init
     ```
 
-That's it! envsafe will automatically protect your `.env` files from being committed to Git.
+That's it! envwarden will automatically protect your `.env` files from being committed to Git.
 
 ## 🧩 How It Works
 
@@ -29,7 +29,7 @@ That's it! envsafe will automatically protect your `.env` files from being commi
 - Uses Husky to prevent accidental commits of `.env` files
 
 
-## 🤔 Why Use ensafe?
+## 🤔 Why Use envwarden?
 
 - **Peace of Mind:**  
   No more "oh no" moments after a late-night push.
