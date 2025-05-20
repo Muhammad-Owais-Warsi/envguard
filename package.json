@@ -1,14 +1,14 @@
 {
   "name": "envwarden",
   "description": "The End of Oops-I-Committed-My-.env",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "type": "module",
   "bin": {
     "envwarden": "./index.js"
   },
   "scripts": {
-    "postinstall": "husky init && husky",
+    "postinstall": "npm i husky && husky init && husky",
     "prepare": "husky",
     "init": "node index.js"
   },
