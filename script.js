@@ -68,4 +68,4 @@ function main() {
   console.log("\n✨ Environment safety check completed\n");
 }
 
-export default main();
+export default main;
