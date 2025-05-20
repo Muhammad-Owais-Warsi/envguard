@@ -1,0 +1,25 @@
+{
+  "name": "envsafe",
+  "description": "The End of Oops-I-Committed-My-.env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "envsafe": "./script.js"
+  },
+  "scripts": {
+    "postinstall": "husky init && husky",
+    "prepare": "husky",
+    "init": "node script.js"
+  },
+  "repository": {
+      "url": "https://github.com/Muhammad-Owais-Warsi/envsafe.git",
+      "type": "git"
+  },
+  "keywords": [],
+  "author": "Muhammad Owais Warsi",
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^9.1.7"
+  }
+}
