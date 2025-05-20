@@ -1,7 +1,7 @@
 {
   "name": "envwarden",
   "description": "The End of Oops-I-Committed-My-.env",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "main": "index.js",
   "type": "module",
   "bin": {

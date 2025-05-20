@@ -17,7 +17,7 @@ A simple tool to protect your environment variables by ensuring `.env` files nev
 
 2. **Initialize the package**
     ```bash
-    envwarden init
+    npx envwarden init
     ```
 
 That's it! envsafe will automatically protect your `.env` files from being committed to Git.
