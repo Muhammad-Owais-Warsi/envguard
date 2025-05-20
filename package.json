@@ -8,7 +8,6 @@
     "envwarden": "./index.js"
   },
   "scripts": {
-    "postinstall": "node postinstall.js",
     "prepare": "husky",
     "init": "node index.js"
   },
