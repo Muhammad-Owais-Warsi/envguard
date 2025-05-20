@@ -1,11 +1,11 @@
 {
-  "name": "envguard",
+  "name": "envwarden",
   "description": "The End of Oops-I-Committed-My-.env",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "envguard": "./script.js"
+    "envwarden": "./script.js"
   },
   "scripts": {
     "postinstall": "husky init && husky",
@@ -13,7 +13,7 @@
     "init": "node script.js"
   },
   "repository": {
-      "url": "https://github.com/Muhammad-Owais-Warsi/envguard",
+      "url": "https://github.com/Muhammad-Owais-Warsi/envwarden",
       "type": "git"
   },
   "keywords": [],
