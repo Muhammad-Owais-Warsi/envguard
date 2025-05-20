@@ -1,11 +1,11 @@
 {
   "name": "envwarden",
   "description": "The End of Oops-I-Committed-My-.env",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "envwarden": "./bin/script.js"
+    "envwarden": "./script.js"
   },
   "scripts": {
     "postinstall": "husky init && husky",
@@ -13,8 +13,8 @@
     "init": "node script.js"
   },
   "repository": {
-      "url": "https://github.com/Muhammad-Owais-Warsi/envwarden",
-      "type": "git"
+    "url": "git+https://github.com/Muhammad-Owais-Warsi/envwarden.git",
+    "type": "git"
   },
   "keywords": [],
   "author": "Muhammad Owais Warsi",
