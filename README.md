@@ -2,13 +2,13 @@
 
 A simple tool to protect your environment variables by ensuring `.env` files never get committed to Git.
 
-## 🚀 Features
+## Features
 
 - Automatically adds `.env` to `.gitignore` if missing
 - Removes `.env` from Git tracking if it was accidentally committed
 - Integrates with Husky for pre-commit protection
 
-## 🛠️ Quick Start
+## Quick Start
 
 1. **Install envwarden:**
     ```bash
@@ -22,14 +22,14 @@ A simple tool to protect your environment variables by ensuring `.env` files nev
 
 That's it! envwarden will automatically protect your `.env` files from being committed to Git.
 
-## 🧩 How It Works
+## How It Works
 
 - Checks if `.env` is in `.gitignore` and adds it if missing
 - Detects if `.env` is being tracked by Git and removes it from tracking
 - Uses Husky to prevent accidental commits of `.env` files
 
 
-## 🤔 Why Use envwarden?
+## Why Use envwarden?
 
 - **Peace of Mind:**  
   No more "oh no" moments after a late-night push.
